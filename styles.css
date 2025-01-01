@@ -2,14 +2,10 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    display: flex; /* Use flexbox for centering */
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
 }
 
 img {
     max-width: 100%;
     max-height: 100%;
-    object-fit: contain; /* This is usually the best option */
+    object-fit: contain;
 }
