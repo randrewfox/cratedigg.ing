@@ -11,5 +11,5 @@ html, body {
 img {
     max-width: 100%;
     max-height: 100%;
-    /* Remove margin: 0 auto and display: block as flexbox handles it */
+    object-fit: contain; /* This is usually the best option */
 }
